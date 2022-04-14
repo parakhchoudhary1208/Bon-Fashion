@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body 
+{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: fixed;
+    top: 3%;
+    width: 100%;
+    height: 10%;
+    z-index: 999;
+}
+
+#nav #bytwo{
+    margin-left: 12px;
+    font-family: Bebas Neue;
+    transform: rotate(180deg);
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#nav #menu{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+#nav #menu h3{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+#nav #menu i{
+    margin-right: -35px;
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    height: 8%;
+    width: 100%;
+    position: absolute;
+    top: 67.5%;
+    z-index: 100;
+    border-top: 1px solid rgba(204, 204, 204, 0.57);
+    border-bottom: 1px solid rgb(204, 204, 204, 0.57);
+}
+
+#nav1:hover{
+    cursor: pointer;
+    background-color: rgba(124, 124, 124, 0.194);
+}
+
+#nav1 #artist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 30px;
+    width: 170px;
+}
+
+#nav1 #artist1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 30px;
+    width: 270px;
+}
+
+#nav1 h3{
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+#nav1 h3 i{
+    color: rgba(234, 234, 234, 0.827);
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+#left{
+    position: relative;
+    height: 100%;
+    width: 35%;
+}
+
+#left #bon{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 550px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+#left #bon h1{
+    font-family: Vanguard CF;
+    letter-spacing: -15px;
+    font-size: 450px;
+    color: rgb(245, 245, 245);
+    z-index: 99;
+}
+
+#left #meet{
+    padding: 0px 0px;
+    margin-top: 80px;
+    margin-left: 65px;
+    height: 190px;
+    width: 210px;
+    font-family: 'Vanguard CF';
+    line-height: 65px;
+}
+
+#left #meet1{
+    overflow: hidden;
+}
+
+#left #meet1 h2{
+   margin-bottom: -15px; 
+   font-size: 30px;
+   color: rgb(135, 135, 135);
+}
+
+#left #martina{
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+#left #martina h2{
+    font-size: 60px;
+    color: #fff;
+}
+
+#left #almquist{
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+#left #almquist h2{
+    font-size: 60px;
+    color: #fff;
+}
+
+#mid{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(22, 22, 22);
+}
+
+#mid #img{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1623881688175-66ac1e3c12e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+    background-position: top;
+}
+
+#mid #circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    border: 1px solid rgba(204, 204, 204, 0.57);
+}
+
+#mid #circle h1{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    font-family: 'Gilroy';
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: rgb(221, 221, 221);
+}
+
+#mid #circle:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.092);
+}
+
+#mid #style{
+    display: flex;
+    position: absolute;
+    top: 80%;
+    margin: 0px -19px;
+    color: #fff;
+}
+
+#mid #style #star #star1{
+    font-size: 90px;
+}
+
+#mid #style h1{
+    font-family: 'Vanguard CF Demi Bold';
+    font-size: 100px;
+    letter-spacing: -2px;
+}
+
+#right{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(22, 22, 22);
+}
+
+#right #contact{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+
+#right #contact1{
+    height: 20%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#right #contact1:hover{
+    background-color: black;
+    cursor: pointer;
+    color: #fff;
+}
+
+#right #contact #img1{
+    height: 80%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1512646737873-990ddc1a8e48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80");
+    background-size: 700px;
+    background-position: top;
+}
+
+#right #contact #contact1 h1{
+    position: absolute;
+    top: 25%;
+    margin-left: 62px;
+    font-family: 'Vanguard CF Demi Bold';
+    font-size: 65px;
+}
